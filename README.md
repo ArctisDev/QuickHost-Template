@@ -1,77 +1,60 @@
-QuickHost Template
-==================
+# QuickHost-Template
 
-QuickHost Template is a professional and fully responsive website template built with HTML, CSS, and JavaScript, styled using Tailwind CSS. Designed to help users quickly deploy a modern, polished website without needing a backend or advanced development skills.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![GitHub language count](https://img.shields.io/github/languages/count/user/repo)
+![GitHub top language](https://img.shields.io/github/languages/top/user/repo)
 
-🎯 Purpose
-----------
+## Description
 
-QuickHost was built for:
+No description provided for QuickHost-Template.
 
-- People with limited time to build a website from scratch
-- Those who can't afford to hire a professional developer
-- Devs who want a clean, customizable starting point
+## Key Features and Highlights
 
-It uses .json files to manage dynamic content, making it easy to update the site without touching HTML directly.
+- Utilizes HTML as the primary language
+- Easy to install and use
+- Tailwind CSS for styling
 
-⚠️ Important: For the content to load properly, the site must be served via a live server (e.g., Live Server extension in VS Code) or hosted on a web server.
+## Installation
 
-🧱 Project Structure
---------------------
+To install QuickHost-Template, you need to have Node.js and npm installed. Then, run the following command:
 
-QuickHost-Template/
-├── index.html               # Main homepage
-├── about.html               # About page
-├── src/                     # Source-related files (optional)
-├── css/
-│   ├── animations.css       # Animation styles
-│   ├── input.css            # Tailwind input config
-│   ├── output.css           # Compiled Tailwind CSS
-│   ├── others.css
-│   └── style.css            # General styling
-├── about/
-│   └── style.css            # Page-specific styles
-├── index/
-│   └── style.css            # Page-specific styles
-├── images/
-│   └── logo.png             # Site logo and other images
-├── js/
-│   ├── fade-in-elements.js  # Animation scripts
-│   ├── faqs.js              # FAQ functionality
-│   ├── loader.js            # Preloader logic
-│   └── monthly-yearly.js    # Plan toggles and pricing logic
-├── start-tailwind.bat       # Script to launch Tailwind CLI
-└── README.txt
+```bash
+npm install @tailwindcss/cli@4.1.8 tailwindcss@4.1.8
+```
 
-⚙️ Setup Instructions
----------------------
+## Usage
+
+To use QuickHost-Template, follow these steps:
 
 1. Clone the repository:
 
-   git clone https://github.com/ArctisDev/QuickHost-Template.git
+```bash
+git clone https://github.com/user/QuickHost-Template.git
+```
 
-2. Start the Tailwind watcher:
+2. Navigate to the project directory:
 
-   Run "start-tailwind.bat" to compile Tailwind styles in real-time.
+```bash
+cd QuickHost-Template
+```
 
-3. Preview the site:
+3. Start the development server:
 
-   Use a live server (e.g., Live Server extension in VS Code) to open index.html
+```bash
+npm run start
+```
 
-4. Customize content:
+4. Access the application in your browser at `http://localhost:3000`.
 
-   Edit the .json files and styling/HTML as needed.
+## Dependencies
 
-✨ Features
------------
+- "@tailwindcss/cli": "^4.1.8"
+- "tailwindcss": "^4.1.8"
 
-- Built with Tailwind CSS
-- Structured and scalable folder organization
-- Dynamically loads content via JavaScript
-- Lightweight and fast with no backend required
-- Easy to modify and extend for any use case
+## Contributing
 
-📄 License
-----------
+Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-Licensed under the MIT License.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
