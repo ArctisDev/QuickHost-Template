@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     elements.forEach((el) => {
         // Escolhe aleatoriamente um dos efeitos: esquerda, direita, baixo ou escala
-        const effects = ["from-bottom", "scale"];
+        const effects = ["from-bottom"];
         const randomEffect = effects[Math.floor(Math.random() * effects.length)];
 
         el.classList.add(randomEffect);

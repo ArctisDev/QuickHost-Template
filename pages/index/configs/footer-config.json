@@ -9,9 +9,9 @@
 "about": {
   "title": "About",
   "items": [
-    { "text": "Company", "link": "#" },
-    { "text": "Community", "link": "#" },
-    { "text": "Discord", "link": "#" }
+    { "text": "Company", "link": "about.html" },
+    { "text": "Community", "link": "#section-discord" },
+    { "text": "Discord", "link": "#section-discord" }
   ]
 },
   "products": {

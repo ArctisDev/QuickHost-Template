@@ -4,6 +4,23 @@ body{
     background-color: rgb(16,24,40);
 }
 
+.maintenance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 115);
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    height: 50px;
+    width: 100%;
+}
+
+.text-space{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /*
 Configs of About
 */
