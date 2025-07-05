@@ -1,0 +1,41 @@
+body{
+    font-family: poppins;
+    width: 100%;
+    background-color: rgb(16,24,40);
+}
+
+/*
+Configs of About
+*/
+
+.about-title{
+    color: white;
+    font-size: 40pt;
+}
+
+.about-title-decoration{
+    color: rgb(93, 0, 255);
+}
+
+.about-sub-title{
+    color: gray;
+    font-size: 13pt;
+}
+
+.about-desc{
+    color: gray;
+}
+
+.about-get-started{
+    color: white;
+    font-weight: 600;
+    background-color: rgba(93, 0, 255, 0.7);
+    will-change: transform;
+    transition: 0.5s;
+}
+
+.about-get-started:hover{
+    color: white;
+    transform: scale(1.1);
+    background-color: rgba(69, 1, 187, 0.7);
+}

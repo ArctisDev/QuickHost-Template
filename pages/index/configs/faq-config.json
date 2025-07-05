@@ -1,0 +1,57 @@
+{
+  "title": "Have any Questions?",
+  "categories": [
+    {
+      "name": "G1231",
+      "questions": [
+        {
+          "question": "What is ArcadeHut?",
+          "answer": "ArcadeHut is a platform where you can host your multiplayer games with ease, whether for fun, testing, or competitive play."
+        },
+        {
+          "question": "Do I need technical knowledge to use it?",
+          "answer": "Nope! Our interface is built to be user-friendly. Just pick a game, configure basic settings, and you're live."
+        }
+      ]
+    },
+    {
+      "name": "Trust & Safety",
+      "questions": [
+        {
+          "question": "Is my data secure?",
+          "answer": "Yes. ArcadeHut uses modern encryption and stores data in secure, isolated containers."
+        },
+        {
+          "question": "Can others access my servers?",
+          "answer": "Only if you allow it. You control the privacy settings — from private invite-only lobbies to public servers."
+        }
+      ]
+    },
+    {
+      "name": "Services",
+      "questions": [
+        {
+          "question": "Which games are supported?",
+          "answer": "ArcadeHut supports popular titles like Minecraft, CS:GO, Valheim, and more — plus custom servers via Docker."
+        },
+        {
+          "question": "Do you offer DDoS protection?",
+          "answer": "Yup! All ArcadeHut servers come with basic DDoS protection included at no extra cost."
+        }
+      ]
+    },
+    {
+      "name": "Billing",
+      "questions": [
+        {
+          "question": "Can I upgrade or downgrade my plan anytime?",
+          "answer": "Yes, you can change plans anytime. Upgrades take effect immediately; downgrades apply at the next billing cycle."
+        },
+        {
+          "question": "Will I lose my data if I cancel?",
+          "answer": "No. We keep your data backed up for 30 days after cancellation in case you change your mind or want to export it."
+        }
+      ]
+    }
+  ]
+} 

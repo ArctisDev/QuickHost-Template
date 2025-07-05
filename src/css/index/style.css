@@ -1,0 +1,258 @@
+html {
+    font-family: poppins;
+    width: 100%;
+    background-color: rgb(16,24,40);
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100%;         /* Garante que o body ocupe toda a altura */
+  }
+  
+  body {
+    overflow-x: hidden;   /* Impede rolagem lateral */
+    overflow-y: auto;     /* Só o body pode rolar verticalmente */
+    min-height: 100vh;    /* Garante que o body ocupe pelo menos a altura da tela */
+  }
+
+/*
+Configs of Navbar
+*/
+
+.client-area{
+    background-color: rgba(93, 0, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 255, 0.4);
+}
+
+.client-area:hover{
+    background-color: rgba(93, 0, 255, 0.862);
+}
+
+/*
+Configs of Hero
+*/
+
+.hero-title{
+    color: white;
+    font-size: 55pt;
+}
+
+.hero-title-decoration{
+    color: rgb(93, 0, 255);
+}
+
+.hero-sub-title{
+    color: gray;
+    font-size: 15pt;
+}
+
+.hero-other-titles{
+    color: blue;
+}
+
+.hero-get-started,
+.hero-learn-button {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.hero-learn-button{
+    color: white;
+    will-change: transform;
+    transition: 0.2s;
+    transition: 0.4s ease-in color transform;
+}
+
+.hero-learn-button:hover{
+    transform: scale(1.1);
+    color: blue;
+}
+
+.hero-learn-button .arrow{
+    margin-left: 10px;
+}
+
+.hero-get-started{
+    background-color: rgba(93, 0, 255, 0.7);
+    will-change: transform;
+    transition: 0.5s;
+}
+
+.hero-get-started:hover{
+    transform: scale(1.1);
+    background-color: rgba(69, 1, 187, 0.7);
+}
+
+/*
+    Configs of Services
+*/
+
+.services-our-services{
+    color: rgba(93, 0, 255, 0.7);
+}
+
+.services-title{
+    color: white;
+    font-size: 70pt;
+}
+
+.services-subtitle{
+    color: gray;
+    font-size: 15pt;
+}
+
+.services-card-icons{
+    background-color: rgba(93, 0, 255, 0.7);
+}
+
+.services-card{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: rgb(190, 190, 190);
+    outline: 1px solid rgb(93, 0, 255, 0.7);
+}
+
+/*
+    Configs of pricing
+*/
+
+.pricing-cards{
+    transition: 0.5s;
+}
+
+.pricing-cards:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.pricing-cards-icons{
+    color: rgba(93, 0, 255, 0.7);
+}
+
+.pricing-button-chosse{
+    background-color: rgba(93, 0, 255, 0.7);
+    will-change: transform;
+    transition: 0.2s;
+    transition: 0.4s ease-in color transform;
+}
+
+.pricing-button-chosse:hover{
+    transform: scale(1.1);
+    background-color: rgba(60, 0, 163, 0.7);     
+}
+
+/*
+    Configs of Discord
+*/
+
+.discord-title{
+    color: white;
+    font-size: 35pt;
+}
+
+.discord-color-title{
+    color: rgba(93, 0, 255, 0.7);
+}
+
+.discord-button-join{
+    background-color: rgba(93, 0, 255, 0.7);
+    will-change: transform;
+    transition: 0.2s;
+    transition: 0.4s ease-in color transform;
+}
+
+.discord-button-join:hover{
+    transform: scale(1.1);
+    background-color: rgba(60, 0, 163, 0.7);  
+}
+
+/*
+    Configs of Testimonials
+*/
+
+.testimonials-title{
+    color: white;
+    font-size: 40pt;
+}
+
+.testimonials-subtitle{
+    color: gray;
+    font-size: 15pt;
+}
+
+.testimonials-padding{
+    margin: 30px;
+}
+
+.testimonials-cards{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgb(130, 130, 130);
+    outline: 1px solid rgb(93, 0, 255, 0.7);
+    border-radius: 20px;
+}
+
+.testimonials-cards-names{
+    color: rgb(93, 0, 255);
+}
+
+.testimonials-cards-work{
+    color: rgb(225, 225, 225);
+}
+
+/*
+    Configs of FAQs
+*/
+
+.faq-title{
+    color: white;
+    font-size: 40pt;
+}
+
+.faqs-cards-icons{
+    color: rgba(93, 0, 255, 0.7);
+}
+
+/*
+    Configs of Contact
+*/
+
+.contact-form{
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 10px rgba(123, 123, 123, 0.4);
+}
+
+.contact-title{
+    color: white;
+    font-size: 40pt;
+}
+
+.contact-subtitle{
+    color: gray;
+    font-size: 15pt;
+}
+
+.contact-icon{
+    color: rgb(200, 200, 200);
+}
+
+.contact-info-address{
+    color: rgb(200, 200, 200);
+}
+
+.contact-info-phone{
+    color: rgb(200, 200, 200);
+}
+
+.contact-info-email{
+    color: rgb(200, 200, 200);
+}
+
+.contact-button-form{
+    background-color: rgba(93, 0, 255, 0.7);
+    will-change: transform;
+    transition: 0.2s;
+    transition: 0.4s ease-in color transform;
+}
+
+.contact-button-form:hover{
+    transform: scale(1.05);
+    background-color: rgba(60, 0, 163, 0.7);
+}

@@ -1,0 +1,37 @@
+{
+  "ourServices": "Our Services",
+  "title": "What We Offer",
+  "subtitle": "At ArcadeHut, we power your play. Whether you're running game servers, building communities, or just want smooth gameplay. ",
+  "cards": [
+    {
+      "icon": "fas fa-server",
+      "title": "Game Server Hosting",
+      "description": "High-performance game servers with low latency and 24/7 uptime for an uninterrupted gaming experience."
+    },
+    {
+      "icon": "fas fa-shield-alt",
+      "title": "DDoS Protection",
+      "description": "Advanced security measures to keep your servers safe from attacks and ensure stable gameplay."
+    },
+    {
+      "icon": "fas fa-headset",
+      "title": "24/7 Support",
+      "description": "Round-the-clock technical support to help you with any issues or questions you may have."
+    },
+    {
+      "icon": "fas fa-sliders-h",
+      "title": "Custom Configuration",
+      "description": "Tailor your server settings to match your specific gaming needs and preferences."
+    },
+    {
+      "icon": "fas fa-bolt",
+      "title": "Instant Setup",
+      "description": "Get your game server up and running in minutes with our automated deployment system."
+    },
+    {
+      "icon": "fas fa-chart-line",
+      "title": "Performance Monitoring",
+      "description": "Real-time monitoring and analytics to ensure optimal server performance."
+    }
+  ]
+}

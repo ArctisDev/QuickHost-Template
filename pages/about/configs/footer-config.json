@@ -1,0 +1,33 @@
+{
+  "logo": "src/images/logo.jpeg",
+  "description": "Reliable game hosting platform, ensuring performance and stability for your non-stop fun. Simple, secure and made for those who take gaming seriously.",
+  "social": [
+    { "icon": "reddit", "link": "#", "svg": "<svg class='w-5 h-5 fill-current' ...></svg>" },
+    { "icon": "facebook", "link": "#", "svg": "<svg class='w-5 h-5 fill-current' ...></svg>" },
+    { "icon": "github", "link": "#", "svg": "<svg class='w-5 h-5 fill-current' ...></svg>" }
+  ],
+"about": {
+  "title": "About",
+  "items": [
+    { "text": "Company", "link": "#" },
+    { "text": "Community", "link": "#" },
+    { "text": "Discord", "link": "#" }
+  ]
+},
+  "products": {
+    "title": "Products",
+    "items": [
+      { "text": "Minecraft", "link": "#" },
+      { "text": "VPS", "link": "#" },
+      { "text": "Dedicated Servers", "link": "#" }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "items": [
+      { "text": "(00) 99999-9999", "link": "#" },
+      { "text": "contact@example.com", "link": "#" }
+    ]
+  },
+  "copyright": "© Copyright 2025 - All rights reserved"
+} 

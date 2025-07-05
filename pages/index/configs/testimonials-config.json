@@ -1,0 +1,30 @@
+{
+  "title": "What Our Users Are Saying",
+  "subtitle": "Real stories from real users. Whether they're hosting small private servers or managing large communities, our users trust ArcadeHut to keep their games running smoothly. Check out what they have to say about the speed, reliability, and support that makes all the difference.",
+  "testimonials": [
+    {
+      "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur aperiam, beatae officiis amet quaerat unde, fugiat necessitatibus dolorum architecto cumque sapiente! Corrupti sed esse quidem perspiciatis alias, earum recusandae cumque et, nisi veniam suscipit sint quaerat, adipisci delectus doloremque itaque.",
+      "name": "Leroy Jenkins",
+      "work": "CTO of Company Co.",
+      "image": "https://pagedone.io/asset/uploads/1696229969.png"
+    },
+    {
+      "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam sequi id, repellendus accusantium recusandae omnis est quia esse assumenda, doloribus saepe. Asperiores, quas. Sint accusantium harum magni illo adipisci perferendis quod dolorum cupiditate nesciunt omnis reiciendis modi, veritatis, aspernatur unde.",
+      "name": "Leroy Jenkins",
+      "work": "CTO of Company Co.",
+      "image": "https://pagedone.io/asset/uploads/1696229969.png"
+    },
+    {
+      "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium reiciendis recusandae commodi accusantium vel quis quaerat eos facere ad eveniet fuga impedit doloremque enim perspiciatis iste at sint quod, cupiditate tempora illum cumque maxime dolore. Officiis ducimus totam officia itaque!",
+      "name": "Leroy Jenkins",
+      "work": "CTO of Company Co.",
+      "image": "https://pagedone.io/asset/uploads/1696229969.png"
+    },
+    {
+      "text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, sunt blanditiis possimus autem hic illo facilis ex ipsum sapiente sit. Culpa molestiae dolorum ducimus perferendis delectus aliquam et natus repellat illum maxime recusandae nesciunt, accusantium tenetur quibusdam quis perspiciatis aliquid.",
+      "name": "Leroy Jenkins",
+      "work": "CTO of Company Co.",
+      "image": "https://pagedone.io/asset/uploads/1696229969.png"
+    }
+  ]
+} 

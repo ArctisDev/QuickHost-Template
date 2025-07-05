@@ -1,0 +1,15 @@
+{
+  "logo": "./src/images/logo.jpeg",
+  "links": [
+    { "text": "Home", "href": "index.html" },
+    { "text": "Suport", "href": "index.html#section-contact" },
+    { "text": "Discord", "href": "index.html#section-discord" },
+    { "text": "Services", "href": "index.html#section-services" },
+    { "text": "Pricing", "href": "index.html#section-pricing" },
+    { "text": "Status", "href": "#" }
+  ],
+  "clientArea": {
+    "text": "Client Area",
+    "href": "#"
+  }
+} 

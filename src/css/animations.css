@@ -1,0 +1,190 @@
+.border-button {
+    position: relative;
+    background: none;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.border-button-no-padding{
+    position: relative;
+    padding-bottom: 3px;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.border-button-no-padding::after{
+    margin-top: 3px;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    border-radius: 30px;
+    background: blue;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.border-button-no-padding:hover::after{
+    width: 30%;
+}
+
+.border-button::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    border-radius: 30px;
+    background: blue;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.border-button:hover::after {
+    width: 80%;
+}
+
+.border-button-text{
+    border-bottom: solid 5px blue;
+}
+
+#success-toast {
+  transition: opacity 0.5s ease;
+  opacity: 0;
+}
+
+#success-toast.fade-in {
+  opacity: 1;
+}
+
+#success-toast.fade-out {
+  opacity: 0;
+}
+
+  .fade-in {
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeIn 0.4s forwards;
+  }
+
+  .fade-out {
+    opacity: 1;
+    transform: translateY(0);
+    animation: fadeOut 0.4s forwards;
+  }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeOut {
+    to {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+  }
+
+/* Configuração inicial */
+.fade-in-elements {
+  opacity: 0;
+  transition: opacity 0.7s ease-out, transform 1s ease-out;
+  will-change: opacity, transform;
+}
+
+/* Variações de entrada */
+.fade-in-elements.from-left {
+    transform: translateX(-50px);
+}
+
+.fade-in-elements.from-right {
+    transform: translateX(50px);
+}
+
+.fade-in-elements.from-bottom {
+    transform: translateY(50px);
+}
+
+.fade-in-elements.scale {
+    transform: scale(0.8);
+}
+
+/* Quando o elemento aparece */
+.fade-in-elements.visible {
+    opacity: 1;
+    transform: none;
+}
+
+/* Preloader Fullscreen */
+#preloader {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 20pt;
+  font-weight: 700;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(15px);
+  /* Cor de fundo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  /* Mantém o preloader acima de tudo */
+  transition: opacity 1.5s ease-out;
+}
+
+/* Esconde o preloader quando a classe .hidden é adicionada */
+#preloader.hidden {
+    opacity: 0;
+    pointer-events: none;
+    /* Evita bloquear cliques */
+}
+
+@keyframes wave {
+    0%,
+    100% {
+        transform: scaleY(0.4);
+    }
+
+    50% {
+        transform: scaleY(1);
+    }
+}
+
+.wave-loader {
+  display: flex;
+  align-items: flex-end;
+  height: 32px;
+  gap: 4px;
+  margin-top: 12px;
+}
+
+.wave {
+  display: block;
+  width: 8px;
+  height: 16px;
+  background: #3b82f6; /* Azul, ajuste conforme sua paleta */
+  border-radius: 4px;
+  animation: wave 1s infinite ease-in-out;
+}
+
+.wave:nth-child(2) { animation-delay: 0.1s; }
+.wave:nth-child(3) { animation-delay: 0.2s; }
+.wave:nth-child(4) { animation-delay: 0.3s; }
+.wave:nth-child(5) { animation-delay: 0.4s; }
+
+@keyframes wave {
+  0%, 100% { height: 16px; }
+  50% { height: 32px; }
+}
