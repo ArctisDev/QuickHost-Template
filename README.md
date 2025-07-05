@@ -1,5 +1,4 @@
 # QuickHost-Template
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/ArctisDev/QuickHost-Template)
 
 QuickHost-Template is a modern, responsive, and highly customizable website template for game hosting providers. Built with Tailwind CSS and vanilla JavaScript, it allows for easy content modification through simple JSON configuration files, eliminating the need to directly edit HTML code. The template features a sleek design, smooth animations, and interactive components to provide a professional user experience out-of-the-box.
 
