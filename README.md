@@ -88,7 +88,7 @@ The repository is organized as follows:
 
 ## Demo
 
-Demo accessible on [Verce](https://quickhost-template.vercel.app).
+Demo accessible on [Vercel](https://quickhost-template.vercel.app).
 
 ## License
 
