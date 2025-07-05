@@ -86,6 +86,10 @@ The repository is organized as follows:
 └── LICENSE                   # Project License
 ```
 
+## Demo
+
+Demo accessible at `https://quickhost-template.vercel.app`
+
 ## License
 
 This project is released into the public domain under the [Unlicense](https://unlicense.org/). See the `LICENSE` file for more details.
